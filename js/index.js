@@ -26,3 +26,11 @@ function solicitarUsuario () {
 } 
 }
 solicitarUsuario()
+
+
+
+let ingresarNumero = parseInt(prompt("Ingresar Numero"));
+for (let i = 1; i <= 5; i++) {
+    let resultado = ingresarNumero * i ;
+    alert(ingresarNumero +" X "+ i +" = "+ resultado);
+}
