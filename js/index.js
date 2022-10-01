@@ -28,6 +28,21 @@ function solicitarUsuario () {
 solicitarUsuario()
 
 
+function recuperarContra(reset) 
+{
+    let seguir;
+
+    do {
+        reset = alert("Olvidaste tu contraseña?")
+        seguir = prompt("Desea recuperarla? si/no");    
+    } while (seguir == 'si')
+}
+
+recuperarContra()
+
+
+
+
 
 let ingresarNumero = parseInt(prompt("Ingresar Numero"));
 for (let i = 1; i <= 5; i++) {
